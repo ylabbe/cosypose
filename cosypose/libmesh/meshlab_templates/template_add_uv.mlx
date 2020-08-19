@@ -1,0 +1,13 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Parametrization: Trivial Per-Triangle ">
+  <Param type="RichInt" value="0" name="sidedim"/>
+  <Param type="RichInt" value="1024" name="textdim"/>
+  <Param type="RichInt" value="2" name="border"/>
+  <Param enum_val0="Basic" enum_val1="Space-optimizing" enum_cardinality="2" type="RichEnum" value="1" name="method"/>
+ </filter>
+ <filter name="Set Texture">
+  <Param type="RichString" value="{texture_name}" name="textName"/>
+  <Param type="RichInt" value="1024" name="textDim"/>
+ </filter>
+</FilterScript>

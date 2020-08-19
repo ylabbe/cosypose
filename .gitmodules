@@ -1,0 +1,12 @@
+[submodule "deps/bop_toolkit_cosypose"]
+	path = deps/bop_toolkit_cosypose
+	url = https://github.com/ylabbe/bop_toolkit_cosypose.git
+[submodule "deps/bullet3"]
+	path = deps/bullet3
+	url = https://github.com/ylabbe/bullet3.git
+[submodule "deps/job-runner"]
+	path = deps/job-runner
+	url = https://github.com/ylabbe/job-runner
+[submodule "deps/bop_toolkit_challenge"]
+	path = deps/bop_toolkit_challenge
+	url = https://github.com/ylabbe/bop_toolkit_challenge20

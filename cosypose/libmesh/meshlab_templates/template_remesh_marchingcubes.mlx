@@ -1,0 +1,25 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Uniform Mesh Resampling">
+  <Param type="RichAbsPerc" value="2.0" min="0" name="CellSize" max="223.827"/>
+  <Param type="RichAbsPerc" value="0" min="-44.7653" name="Offset" max="44.7653"/>
+  <Param type="RichBool" value="false" name="mergeCloseVert"/>
+  <Param type="RichBool" value="false" name="discretize"/>
+  <Param type="RichBool" value="false" name="multisample"/>
+  <Param type="RichBool" value="false" name="absDist"/>
+ </filter>
+ <filter name="Quadric Edge Collapse Decimation">
+  <Param type="RichInt" value="{n_faces}" name="TargetFaceNum"/>
+  <Param type="RichFloat" value="0" name="TargetPerc"/>
+  <Param type="RichFloat" value="1" name="QualityThr"/>
+  <Param type="RichBool" value="false" name="PreserveBoundary"/>
+  <Param type="RichFloat" value="1" name="BoundaryWeight"/>
+  <Param type="RichBool" value="false" name="PreserveNormal"/>
+  <Param type="RichBool" value="false" name="PreserveTopology"/>
+  <Param type="RichBool" value="false" name="OptimalPlacement"/>
+  <Param type="RichBool" value="false" name="PlanarQuadric"/>
+  <Param type="RichBool" value="false" name="QualityWeight"/>
+  <Param type="RichBool" value="true" name="AutoClean"/>
+  <Param type="RichBool" value="false" name="Selected"/>
+ </filter>
+</FilterScript>

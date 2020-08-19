@@ -1,0 +1,44 @@
+name: cosypose
+channels:
+   - conda-forge
+   - pytorch
+dependencies:
+  - python=3.7
+  - pinocchio=2.3.1
+  - pytorch=1.3.1=py3.7_cuda10.1.243_cudnn7.6.3_0
+  - torchvision=0.4.2=py37_cu101
+  - rclone
+  - gxx_linux-64
+  - git-lfs
+  - git
+  - cmake
+  - pip
+  - pip:
+      - ./deps/bullet3
+      - ./deps/job-runner
+      - imageio==2.5.0
+      - simplejson
+      - opencv-python
+      - opencv-contrib-python
+      - torchnet
+      - tqdm
+      - lxml
+      - transforms3d
+      - distributed
+      - joblib
+      - pandas==1.0.0
+      - xarray
+      - pyarrow
+      - matplotlib
+      - bokeh
+      - plyfile
+      - trimesh
+      - pycollada
+      - shapely
+      - wget
+      - imageio # bop
+      - pypng # bop
+      - glumpy # bop
+      - ipdb
+      - colorama
+      - scikit_learn

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<robot name="model.urdf">
+  <link name="baseLink">
+    <visual>
+      <geometry>
+        <mesh filename="cube.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="cube.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.0 0.00 0.0"/>
+      <mass value=".1"/>
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+    </inertial>
+  </link>
+</robot>

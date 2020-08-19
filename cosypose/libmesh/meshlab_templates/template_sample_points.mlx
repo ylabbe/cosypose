@@ -1,0 +1,8 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Montecarlo Sampling">
+  <Param name="SampleNum" value="{n_points}" description="Number of samples" type="RichInt"/>
+  <Param name="Weighted" value="false" description="Quality Weighted Sampling" type="RichBool"/>
+  <Param name="ExactNum" value="true" description="Exact Sample Num" type="RichBool"/>
+ </filter>
+</FilterScript>

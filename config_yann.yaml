@@ -1,0 +1,3 @@
+slurm_gpu_queue: 'gpu_p3'
+slurm_qos: 'qos_gpu-t3'
+dask_network_interface: 'ib0'

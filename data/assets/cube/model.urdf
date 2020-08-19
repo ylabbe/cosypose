@@ -1,0 +1,22 @@
+<?xml version="0.0" ?>
+    <robot name="model.urdf">
+      <link name="part0">
+    <visual>
+      <origin xyz="-0.0 -0.0 -0.0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="part0.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+      <material name="mat_part0">
+        <color rgba="0.8 0.8 0.8 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0 -0.0 -0.0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="model_vhacd.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    </link>
+    
+    </robot>
+    

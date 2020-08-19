@@ -1,0 +1,17 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Parametrization: Trivial Per-Triangle ">
+  <Param type="RichInt" value="0" name="sidedim"/>
+  <Param type="RichInt" value="1024" name="textdim"/>
+  <Param type="RichInt" value="0" name="border"/>
+  <Param enum_val0="Basic" enum_val1="Space-optimizing" enum_cardinality="2" type="RichEnum" value="0" name="method"/>
+ </filter>
+ <filter name="Vertex Color to Texture">
+  <Param type="RichString" value="{out_texture_path}" name="textName"/>
+  <Param type="RichInt" value="1024" name="textW"/>
+  <Param type="RichInt" value="1024" name="textH"/>
+  <Param type="RichBool" value="false" name="overwrite"/>
+  <Param type="RichBool" value="true" name="assign"/>
+  <Param type="RichBool" value="true" name="pullpush"/>
+ </filter>
+</FilterScript>

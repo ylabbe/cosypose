@@ -1,0 +1,15 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Transfer Vertex Attributes to Texture (between 2 meshes)">
+  <Param type="RichMesh" value="1" name="sourceMesh"/>
+  <Param type="RichMesh" value="0" name="targetMesh"/>
+  <Param enum_val0="Texture Color" enum_val1="Vertex Normal" enum_cardinality="4" enum_val2="Vertex Quality" enum_val3="Texture Color" type="RichEnum" value="3" name="AttributeEnum"/>
+  <Param type="RichAbsPerc" value="2.4821" min="0" name="upperBound" max="124.107"/>
+  <Param type="RichString" value="{texture_name}" name="textName"/>
+  <Param type="RichInt" value="1024" name="textW"/>
+  <Param type="RichInt" value="1024" name="textH"/>
+  <Param type="RichBool" value="true" name="overwrite"/>
+  <Param type="RichBool" value="true" name="assign"/>
+  <Param type="RichBool" value="true" name="pullpush"/>
+ </filter>
+</FilterScript>
