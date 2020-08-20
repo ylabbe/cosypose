@@ -33,7 +33,7 @@ year={2020}}
 ```
 
 # News
-- We participate in the [BOP challenge 2020](https://bop.felk.cvut.cz/challenges/bop-challenge-2020/). Results are available on the public [leaderboard](https://bop.felk.cvut.cz/leaderboards/) for 7 pose estimation benchmarks. We release 2D detection models (MaskRCNN) and 6D pose estimators models (coarse+refiner) used on each dataset.
+- We participate in the [BOP challenge 2020](https://bop.felk.cvut.cz/challenges/bop-challenge-2020/). Results are available on the public [leaderboard](https://bop.felk.cvut.cz/leaderboards/) for 7 pose estimation benchmarks. We release 2D detection models (MaskRCNN) and 6D pose estimation models (coarse+refiner) used on each dataset.
 - The paper is available on arXiv and full code is released.
 - Our paper on CosyPose is accepted at ECCV 2020.
 
