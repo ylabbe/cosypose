@@ -137,14 +137,14 @@ def main():
         for model_dict in (PBR_DETECTORS, PBR_COARSE, PBR_REFINER,
                            SYNT_REAL_DETECTORS, SYNT_REAL_COARSE, SYNT_REAL_REFINER):
             for model in model_dict.values():
-                gdrive_download(f'experiments/{args.model}', LOCAL_DATA_DIR / 'experiments')
+                gdrive_download(f'experiments/{model}', LOCAL_DATA_DIR / 'experiments')
 
     if args.all_bop20_results:
         from cosypose.bop_config import (PBR_INFERENCE_ID, SYNT_REAL_INFERENCE_ID, SYNT_REAL_ICP_INFERENCE_ID,
                                          SYNT_REAL_4VIEWS_INFERENCE_ID, SYNT_REAL_8VIEWS_INFERENCE_ID)
         for result_id in (PBR_INFERENCE_ID, SYNT_REAL_INFERENCE_ID, SYNT_REAL_ICP_INFERENCE_ID,
                           SYNT_REAL_4VIEWS_INFERENCE_ID, SYNT_REAL_8VIEWS_INFERENCE_ID):
-            gdrive_download(f'results/{args.result_id}', LOCAL_DATA_DIR / 'results')
+            gdrive_download(f'results/{result_id}', LOCAL_DATA_DIR / 'results')
 
 
 def run_rclone(cmd, args, flags):
