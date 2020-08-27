@@ -547,13 +547,13 @@ Notes:
 ## Running evaluation
 You can run locally the evaluation on the publicly available test sets:
 ```
-python -m cosypose.scripts.run_bop20_multi --result_id=result_id --method=method
+python -m cosypose.scripts.run_bop20_eval_multi --result_id=result_id --method=method
 ```
 where method is `maskrcnn_detections/refiner/iteration=4` for single-view, `maskrcnn_detections/icp` when ICP is ran, and `maskrcnn_detections/multiview` for multi-view (n_views > 1).
 
 If you are only interested in generating the bop predictions file suitable for submission to the website, you can run
 ```
-python -m cosypose.scripts.run_bop20_multi --result_id=result_id --method=method --convert_only
+python -m cosypose.scripts.run_bop20_eval_multi --result_id=result_id --method=method --convert_only
 ```
 
 ## Training details
