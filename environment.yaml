@@ -14,6 +14,7 @@ dependencies:
   - git=2.28.0
   - cmake=3.14.0
   - pip=19.3.1
+  - numpy=1.17.4
   - pip:
       - ./deps/bullet3
       - ./deps/job-runner
@@ -38,6 +39,7 @@ dependencies:
       - shapely==1.7.0
       - wget==3.2
       - pypng==0.0.20
+      - PyOpenGL==3.1.0
       - cython==0.29.14
       - glumpy==1.1.0
       - ipdb==0.12.3
