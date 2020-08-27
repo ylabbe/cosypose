@@ -27,7 +27,7 @@ dependencies:
       - transforms3d==0.3.1
       - distributed==2.9.1
       - joblib==0.14.1
-      - pandas==1.0.0
+      - pandas==0.25.3
       - xarray==0.14.1
       - pyarrow==0.15.1
       - matplotlib==3.1.2

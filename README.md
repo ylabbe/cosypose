@@ -80,6 +80,7 @@ We used our {coarse+refinement} single-view 6D pose estimation method in the [BO
 git clone --recurse-submodules https://github.com/ylabbe/cosypose.git
 cd cosypose
 conda env create -n cosypose --file environment.yaml
+conda activate cosypose
 git lfs pull
 python setup.py install
 ```
