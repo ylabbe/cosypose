@@ -24,7 +24,7 @@ BOP_DATASETS = {
     },
 
     'hb': {
-        'splits': ['test_primesense', 'val_primesense'],
+        'splits': ['test_primesense_all', 'val_primesense'],
     },
 
     'icbin': {
