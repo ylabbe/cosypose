@@ -13,6 +13,7 @@ if __name__ == '__main__':
     parser.add_argument('--config', default='', type=str)
     parser.add_argument('--debug', action='store_true')
     parser.add_argument('--resume', default='', type=str)
+    parser.add_argument('--no-eval', action='store_true')
     args = parser.parse_args()
 
     cfg = argparse.ArgumentParser('').parse_args([])
@@ -103,6 +104,9 @@ if __name__ == '__main__':
     else:
         raise ValueError(args.config)
     cfg.val_ds_names = cfg.train_ds_names
+
+    if args.no_eval:
+        cfg.test_ds_names = []
 
     cfg.run_id = f'detector-{args.config}-{run_comment}-{N_RAND}'
 
