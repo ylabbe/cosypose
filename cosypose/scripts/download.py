@@ -58,7 +58,7 @@ def main():
     parser.add_argument('--bop_src', default='bop', type=str, choices=['bop', 'gdrive'])
     parser.add_argument('--bop_extra_files', default='', type=str, choices=['ycbv', 'tless'])
     parser.add_argument('--model', default='', type=str)
-    parser.add_argument('--urdf_models', default='', type=str, choices=['ycbv', 'tless.cad'])
+    parser.add_argument('--urdf_models', default='', type=str)
     parser.add_argument('--ycbv_compat_models', action='store_true')
     parser.add_argument('--texture_dataset', action='store_true')
     parser.add_argument('--result_id', default='', type=str)
