@@ -308,6 +308,7 @@ cd local_data
 wget http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
 tar -xvf VOCtrainval_11-May-2012.tar
 ```
+(If the website is down, which happens periodically, you can alternatively download these files from  [a mirror](https://pjreddie.com/projects/pascal-voc-dataset-mirror/) at https://pjreddie.com/media/files/VOCtrainval_11-May-2012.tar)
 
 ## Training script
 Once you have generated the synthetic data images and downloaded pascal VOC, you can run the training script. On YCB-Video, we train a coarse model on synthetic data only and fine-tune it on the synthetic + real images. On T-LESS, we train a coarse and refinement model and synthetic + provided real images of isolated objects directly from scratch. In our experiments, all models are trained using the same procedure on 32 GPUs.
