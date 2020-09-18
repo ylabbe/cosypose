@@ -16,7 +16,11 @@ ECCV: European Conference on Computer Vision, 2020
 <a href="https://arxiv.org/abs/2008.08465">[Paper]</a>
 <a href="https://www.di.ens.fr/willow/research/cosypose/">[Project page]</a>
 <a href="https://youtu.be/4QYyEvnrC_o">[Video (1 min)]</a>
-<a href="https://youtu.be/MNH_Ez7bcP0">[Video (10 min)]</a>
+<a href="https://youtu.be/MNH_Ez7bcP0">[Video (10 min)]</a> 
+<a href="https://docs.google.com/presentation/d/1APHpaKKnkIvmquNJUVqERiMN4gEQ10Jt4IY7wTfIVgE/edit?usp=sharing">[Slides]</a>
+<br>
+<br>
+Winner of the <a href="https://bop.felk.cvut.cz/challenges/bop-challenge-2020/">BOP Challenge 2020 </a> at ECCV'20 <a href="https://docs.google.com/presentation/d/1jZDu4mw-uNcwzr5jMFlqEddZsb7SjQozXVG3dT6-1M0/edit?usp=sharing">[slides]</a>  <a href="https://arxiv.org/abs/2009.07378"> [BOP challenge paper] </a>
 </h3>
 </div>
 
@@ -33,6 +37,7 @@ year={2020}}
 ```
 
 # News
+- CosyPose is the winning method in the [BOP challenge 2020](https://bop.felk.cvut.cz/challenges/) (5 awards in total, including best overall method and best RGB-only method) ! All the code and models used for the challenge are available in this repository.
 - We participate in the [BOP challenge 2020](https://bop.felk.cvut.cz/challenges/bop-challenge-2020/). Results are available on the public [leaderboard](https://bop.felk.cvut.cz/leaderboards/) for 7 pose estimation benchmarks. We release 2D detection models (MaskRCNN) and 6D pose estimation models (coarse+refiner) used on each dataset.
 - The paper is available on arXiv and full code is released.
 - Our paper on CosyPose is accepted at ECCV 2020.
