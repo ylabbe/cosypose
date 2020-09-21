@@ -44,7 +44,7 @@ dependencies:
       - wget==3.2
       - pypng==0.0.20
       - PyOpenGL==3.1.0
-      - cython==0.29.14
+      - Cython==0.29.21
       - glumpy==1.1.0
       - ipdb==0.12.3
       - colorama==0.4.3
