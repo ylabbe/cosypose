@@ -480,7 +480,7 @@ where model_id is given by the table below:
 | tless   | refiner    | PBR             | refiner-bop-tless-pbr--233420        |
 | tless   | detector   | SYNT+REAL       | detector-bop-tless-synt+real--452847 |
 | tless   | coarse     | SYNT+REAL       | coarse-bop-tless-synt+real--160982   |
-| tless   | refiner    | SYNT+REAL       | refiner-bop-tless-synt+real--88131   |
+| tless   | refiner    | SYNT+REAL       | refiner-bop-tless-synt+real--881314  |
 |         |            |                 |                                      |
 | tudl    | detector   | PBR             | detector-bop-tudl-pbr--728047        |
 | tudl    | coarse     | PBR             | coarse-bop-tudl-pbr--373484          |
