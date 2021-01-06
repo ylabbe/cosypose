@@ -106,7 +106,6 @@ def make_eval_bundle(args, model_training):
     base_pred_kwargs = dict(
         pose_predictor=predictor,
         mv_predictor=None,
-        use_gt_detections=False,
         skip_mv=True,
     )
     for ds_name in args.test_ds_names:
@@ -198,6 +197,7 @@ def train_pose(args):
     args.train_refiner = args.TCO_input_generator == 'gt+noise'
     args.train_coarse = not args.train_refiner
     args.save_dir = EXP_DIR / args.run_id
+    args = check_update_config(args)
 
     logger.info(f"{'-'*80}")
     for k, v in args.__dict__.items():
