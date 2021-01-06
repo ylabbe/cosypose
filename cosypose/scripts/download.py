@@ -1,4 +1,5 @@
 import argparse
+import os
 import zipfile
 import wget
 import logging
@@ -85,6 +86,7 @@ def main():
         if args.bop_extra_files == 'tless':
             # https://github.com/kirumang/Pix2Pose#download-pre-trained-weights
             gdrive_download(f'bop_datasets/tless/all_target_tless.json', BOP_DS_DIR / 'tless')
+            os.symlink(BOP_DS_DIR / 'tless/models_eval', BOP_DS_DIR / 'tless/models')
         elif args.bop_extra_files == 'ycbv':
             # Friendly names used with YCB-Video
             gdrive_download(f'bop_datasets/ycbv/ycbv_friendly_names.txt', BOP_DS_DIR / 'ycbv')
