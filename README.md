@@ -25,6 +25,16 @@ Winner of the <a href="https://bop.felk.cvut.cz/challenges/bop-challenge-2020/">
 </div>
 
 
+# Important Note
+<body>
+<h1 align="center">
+<p style="color:red;font-size:30px">This repository is no longer being maintained.
+<p style="color:red;font-size:30px">If you are looking to use CosyPose and encounter any issues, please see:
+<p style="color:red;font-size:30px">
+<a href="https://github.com/Simple-Robotics/cosypose">https://github.com/Simple-Robotics/cosypose</a>
+</h1>
+</body>
+
 # Citation
 If you use this code in your research, please cite the paper:
 
